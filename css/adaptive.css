@@ -68,6 +68,14 @@
     top: 13px;
     right: -41px;
   }
+  .resource {
+    width: 100%;
+    flex-direction: column;
+      align-items: center;
+  }
+  .resource img {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 500px) {
