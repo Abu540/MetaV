@@ -236,7 +236,7 @@ a {
   width: 100%;
   display: flex;
 }
-.resource-img img{
+.resource-img img {
   width: 100%;
   max-width: 500px;
 }
@@ -261,3 +261,152 @@ a {
     rgb(16, 163, 218) 88.221%
   );
 }
+
+#pricing {
+  padding-block: 80px;
+}
+.pricing-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.pricing-content h2 {
+  font-size: clamp(1.5rem, 1.136rem + 1.82vw, 2.5rem);
+}
+.pricing-content p {
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 200;
+  text-align: center;
+  max-width: 580px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cart {
+  max-width: 400px;
+  gap: 15px;
+  padding: 15px;
+  background-color: #090823;
+  display: flex;
+  flex-direction: column;
+}
+.cart img {
+  width: 100%;
+}
+.cart h2 {
+  font-size: (0.875rem, 0.75rem + 0.63vw, 1.25rem);
+}
+.cart p {
+  max-width: 350px;
+  font-size: clamp(0.75rem, 0.708rem + 0.21vw, 0.875rem);
+}
+
+.about {
+  padding-block: 50px;
+}
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+}
+.about-content h1 {
+  font-weight: 600;
+  font-size: clamp(1.375rem, 1.104rem + 1.35vw, 2.188rem);
+}
+.about-content p {
+  font-size: clamp(0.875rem, 0.792rem + 0.42vw, 1.125rem);
+  font-weight: 400;
+  text-align: center;
+  max-width: 480px;
+}
+
+#MetaV {
+  padding-block: 70px;
+  background: #090823;
+}
+
+.MetaV-content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.MetaV-content h1 {
+  background: rgb(171, 159, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 159, 246, 1) 42%,
+    rgba(119, 193, 246, 1) 65%,
+    rgba(101, 205, 245, 1) 100%
+  );
+
+  color: transparent;
+  background-clip: text;
+}
+
+.MetaV-content p {
+  width: 100%;
+  max-width: 400px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.metav-text {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+
+  gap: 23px;
+}
+
+.contact .logo {
+  display: flex;
+  gap: 23px;
+}
+.contact .logo img {
+  width: 100%;
+  max-width: 35px;
+  padding: 1px;
+}
+
+.contact p {
+  width: 100%;
+  max-width: 250px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 20px;
+}
+.about-service{
+  display: flex;
+  align-items: center;
+gap: 50px;}
