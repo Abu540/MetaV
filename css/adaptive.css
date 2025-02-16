@@ -170,10 +170,20 @@
     }
   }
 }
+/* @media(max-width:665px){
+  .pricing-content{
+    max-width: ;
+  }
+} */
+@media (max-width: 853px) {
+  .box {
+    justify-content: center;
+  }
+}
 @media (max-width: 1113px) {
-  .MetaV-content{
+  .MetaV-content {
     flex-direction: column;
   }
-  .about-service{
+  .about-service {
   }
 }

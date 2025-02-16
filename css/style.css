@@ -406,7 +406,8 @@ a {
   font-weight: 300;
   line-height: 20px;
 }
-.about-service{
+.about-service {
   display: flex;
   align-items: center;
-gap: 50px;}
+  gap: 50px;
+}
